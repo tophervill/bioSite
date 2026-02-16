@@ -96,8 +96,12 @@ h2 {
     height: 100%;
 }
 
-#intro a button {
-    margin-top: 3%;
+#intro p {
+    margin-bottom: 50px;
+}
+
+#intro a {
+    /* margin-top: 5%; */
     padding: 20px 35px;
     background-color: #f5e4b8;
     border: none;
@@ -105,12 +109,12 @@ h2 {
     color: white;
 }
 
-#intro a button:hover {
+#intro a:hover {
     background-color: #d1c19a;
     cursor: pointer;
 }
 
-#intro a button{
+#intro a{
     color: black;
     text-decoration: none;
 }
