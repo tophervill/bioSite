@@ -50,7 +50,7 @@ header h1 a:visited {
 .flex-container header {
     align-items: flex-start;
     flex: 1;
-    max-height: 13vh;
+    max-height: 10vh;
 }
 
 .flex-container #container {
