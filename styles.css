@@ -50,21 +50,21 @@ header h1 a:visited {
 .flex-container header {
     align-items: flex-start;
     flex: 1;
-    flex-shrink: 0;
-    max-height: 10vh;
+    /* flex-shrink: 0; */
+    max-height: 13vh;
 }
 
 .flex-container #container {
     flex: 2;
     flex-grow: 1;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
     flex-basis: auto;
 }
 
 .flex-container footer {
     align-items: flex-end;
     flex: 3;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
 }
 
 /* Navigation Bar */
@@ -102,7 +102,7 @@ header h1 a:visited {
 #hero {
     padding: 75px 35px;
     width: 75%;
-    margin: 10% auto;
+    margin: 7% auto;
     display: flex;
 }
 
@@ -123,14 +123,17 @@ header h1 a:visited {
     font-weight: 700;
 }
 
+/* Self Portrait */
+
 #self-portrait {
-    width: 100%;
-    height: 300px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    /* width: 100%; */
+    height: 40vh;
+    min-height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.75s;
 }
 #self-portrait:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
     transition: 1s;
 }
 
@@ -231,8 +234,8 @@ header h1 a:visited {
 /* Footer Styles */
 footer {
     background-color: #CCD5AE;
-    justify-content: flex-end;
     padding: 10px 0;
+    margin-top: auto;
     max-height: 3vh;
     text-align: center;
 }
