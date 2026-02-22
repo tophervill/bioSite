@@ -50,21 +50,18 @@ header h1 a:visited {
 .flex-container header {
     align-items: flex-start;
     flex: 1;
-    /* flex-shrink: 0; */
     max-height: 13vh;
 }
 
 .flex-container #container {
     flex: 2;
     flex-grow: 1;
-    /* flex-shrink: 0; */
     flex-basis: auto;
 }
 
 .flex-container footer {
     align-items: flex-end;
     flex: 3;
-    /* flex-shrink: 0; */
 }
 
 /* Navigation Bar */
