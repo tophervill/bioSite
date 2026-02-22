@@ -15,6 +15,58 @@ h2 {
     font-weight: 300;
 }
 
+header {
+    background-color: #CCD5AE;
+}
+
+header h1 {
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 a {
+    color: #35373b;
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    color: #a19577;
+    border-bottom: 2.5px solid #a19577;
+}
+
+header h1 a:visited {
+    color: #35373b;
+}
+
+/* Flex Container */
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.flex-container header {
+    align-items: flex-start;
+    flex: 1;
+    flex-shrink: 0;
+    max-height: 10vh;
+}
+
+.flex-container #container {
+    flex: 2;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+.flex-container footer {
+    align-items: flex-end;
+    flex: 3;
+    flex-shrink: 0;
+}
+
 /* Navigation Bar */
 #navbar {
     overflow: hidden;
@@ -22,12 +74,7 @@ h2 {
     background-color: #CCD5AE;
     padding-top: 15px;
     border-bottom: solid 15px #E9EDC9;
-}
-
-#navbar #navbar-name {
-    font-weight: 700;
-    color: #35373b;
-    margin-right: auto;
+    justify-content: center;
 }
 
 #navbar a {
@@ -44,14 +91,10 @@ h2 {
     color: black;
 }
 
-#navbar #navbar-name:hover {
-    background-color: transparent;
-    color: #35373b;
-}
-
 #navbar a.active {
     background-color: #E9EDC9;
     color: black;
+    text-decoration: underline;
 }
 
 /* Hero Section */
@@ -188,9 +231,8 @@ h2 {
 /* Footer Styles */
 footer {
     background-color: #CCD5AE;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    justify-content: flex-end;
+    padding: 10px 0;
+    max-height: 3vh;
     text-align: center;
-    margin-top: 5%;
 }
