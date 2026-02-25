@@ -118,6 +118,7 @@ header h1 a:visited {
     padding: 75px 35px;
     background: linear-gradient(to bottom, rgba(0,0,0,0.85), rgba(0,0,0,0.65)), url("images/background-img.jpg") center center fixed no-repeat;
     background-size: cover;
+    height: 70vh;
 }
 
 #hero-wrap {
@@ -125,6 +126,9 @@ header h1 a:visited {
     width: 85%;
     margin: 0 auto;
     flex-wrap: wrap-reverse;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 #intro {
