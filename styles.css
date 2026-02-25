@@ -17,12 +17,25 @@ h2 {
 
 header {
     background-color: #CCD5AE;
+    padding-top: 25px;
+}
+
+header .name-role {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+header .name-role span {
+    color: #35373b;
+    padding: 15px;
 }
 
 header h1 {
     margin: 0;
-    padding: 15px 0;
+    padding: 15px 20px;
     text-align: center;
+    border-right: 3px solid black;
 }
 
 header h1 a {
@@ -37,6 +50,43 @@ header h1 a:hover {
 
 header h1 a:visited {
     color: #35373b;
+}
+
+/* Navigation Bar */
+#navbar {
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    background-color: #CCD5AE;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    /*border-bottom: solid 15px #E9EDC9;*/
+    justify-content: center;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 25px;
+    margin: 0 5px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.2s;
+}
+
+#navbar a:hover {
+    background-color: #E9EDC9;
+    border-radius: 25px;
+    color: black;
+    transition: 0.3s;
+}
+
+#navbar a.active {
+    background-color: #E9EDC9;
+    border-radius: 25px;
+    font-weight: 600;
 }
 
 /* Flex Container */
@@ -62,36 +112,6 @@ header h1 a:visited {
 .flex-container footer {
     align-items: flex-end;
     flex: 3;
-}
-
-/* Navigation Bar */
-#navbar {
-    overflow: hidden;
-    display: flex;
-    background-color: #CCD5AE;
-    padding-top: 15px;
-    border-bottom: solid 15px #E9EDC9;
-    justify-content: center;
-}
-
-#navbar a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-#navbar a:hover {
-    background-color: #E9EDC9;
-    color: black;
-}
-
-#navbar a.active {
-    background-color: #E9EDC9;
-    color: black;
-    text-decoration: underline;
 }
 
 /* Hero Section */
