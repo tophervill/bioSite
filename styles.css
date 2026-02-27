@@ -11,6 +11,8 @@ h2 {
     font-weight: 300;
 }
 
+/* Header */
+
 header {
     background-color: #CCD5AE;
     padding-top: 25px;
@@ -131,7 +133,8 @@ header h1 a:visited {
     align-items: center;
     background: linear-gradient(to bottom, rgba(0,0,0,0.75), rgba(0,0,0,0.75));
     border-radius: 15px;
-    padding: 25px 50px;
+    padding: 35px 50px;
+
 }
 
 /* Intro Section within Hero-Wrap */
@@ -185,6 +188,14 @@ header h1 a:visited {
     order: 2;
     transition: 0.75s;
     border-radius: 15px;
+}
+
+#self-portrait .img-text {
+    margin: 0;
+    text-align: center;
+    color: #FEFAE0;
+    opacity: 75%;
+    font-style: italic;
 }
 
 #self-portrait:hover {
@@ -343,6 +354,7 @@ header h1 a:visited {
     font-size: 2.5em;
 }
 
+
 /* Hobbies Card Layout */
 
 .cards-layout-2 {
@@ -368,6 +380,7 @@ header h1 a:visited {
     transition: 0.3s;
     margin: 5px auto;
     padding: 25px;
+    flex-grow: 1;
 }
 
 .cards-layout-2 .card:hover {
@@ -391,6 +404,15 @@ header h1 a:visited {
     border-top: 5px solid #35373b;
     border-bottom: 5px solid #35373b;
     box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+#hobbies .img-text {
+    text-align: center;
+    background-color: #35373b;
+    border-top: 2px solid #35373b;
+    color: white;
+    margin: 0;
 }
 
 /* Footer Styles */
