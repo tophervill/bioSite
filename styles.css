@@ -107,12 +107,19 @@ header h1 a:visited {
     align-items: stretch;
 }
 
-.flex-container header { order: 1; }
+.flex-container header {
+    order: 1;
+}
 
 .flex-container #main-container,
-.flex-container #container { order: 2; }
+.flex-container #container {
+    order: 2;
+    flex-grow: 1;
+}
 
-.flex-container footer { order: 3; }
+.flex-container footer {
+    order: 3;
+}
 
 /* Hero Section */
 
@@ -412,7 +419,6 @@ footer {
     background-color: #CCD5AE;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-top: auto;
     height: 5vh;
     text-align: center;
     align-content: center;
