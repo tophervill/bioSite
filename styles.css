@@ -51,13 +51,11 @@ header h1 a:visited {
 
 /* Navigation Bar */
 #navbar {
-    overflow: hidden;
     display: flex;
     width: 100%;
     background-color: #CCD5AE;
     padding-top: 15px;
     padding-bottom: 25px;
-    /*border-bottom: solid 15px #E9EDC9;*/
     justify-content: center;
 }
 
@@ -75,14 +73,11 @@ header h1 a:visited {
 
 #navbar a:hover {
     background-color: #E9EDC9;
-    border-radius: 25px;
     color: black;
-    transition: 0.3s;
 }
 
 #navbar a.active {
     background-color: #E9EDC9;
-    border-radius: 25px;
     font-weight: 600;
 }
 
@@ -147,7 +142,8 @@ header h1 a:visited {
     font-weight: 400;
     margin: 0 5% 25px;
     order: 1;
-    flex-basis: 60%;
+    flex-basis: 50%;
+    flex-grow: 1;
 }
 
 #intro h2 { font-size: 1.5em; }
@@ -265,7 +261,6 @@ header h1 a:visited {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /*margin-top: 5%;*/
     padding: 35px 15px;
     min-width: 300px;
     border-top: 2px solid #35373b;
@@ -315,7 +310,6 @@ header h1 a:visited {
 
 .cards-layout-1 .card-image img:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
-    transition: 0.75s;
 }
 
 #return-home {
@@ -387,7 +381,6 @@ header h1 a:visited {
 }
 
 .cards-layout-2 .card-content {
-    /*margin: 0 15px;*/
     font-size: 1.1em;
     text-align: justify;
     line-height: 1.4;
