@@ -225,6 +225,11 @@ header h1 a:visited {
     font-size: 1.05em;
 }
 
+#about .img-text {
+    margin: 0;
+    opacity: 50%;
+}
+
 .bio {
     margin-bottom: 5%;
 }
@@ -409,10 +414,8 @@ header h1 a:visited {
 
 #hobbies .img-text {
     text-align: center;
-    background-color: #35373b;
-    border-top: 2px solid #35373b;
-    color: white;
-    margin: 0;
+    color: black;
+    opacity: 50%;
 }
 
 /* Footer Styles */
