@@ -17,6 +17,9 @@ header {
     background-color: #CCD5AE;
     padding-top: 25px;
     border-bottom: 1px solid #5E6472;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 header .name-role {
@@ -87,11 +90,9 @@ header h1 a:visited {
     background-color: #d7e6b3;
 }
 
-/* Main Page Container */
-
-#main-container {
-    background: linear-gradient(to bottom, rgba(0,0,0,0.30), rgba(0,0,0,0.15)), url("images/background-img.jpg") center center fixed no-repeat;
-    background-size: cover;
+/* Main Container */
+#main-container, #container {
+    margin-top: 15%;
 }
 
 /* Flex Container */
@@ -131,7 +132,6 @@ header h1 a:visited {
     flex-wrap: wrap-reverse;
     justify-content: space-evenly;
     align-items: center;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.75), rgba(0,0,0,0.75));
     border-radius: 15px;
     padding: 35px 50px;
 
@@ -141,7 +141,7 @@ header h1 a:visited {
 
 #intro {
     font-size: 1.2em;
-    color: #FEFAE0;
+    color: #1d1e20;
     font-weight: 400;
     margin: 0 5% 25px;
     order: 1;
@@ -158,10 +158,9 @@ header h1 a:visited {
 }
 
 #intro-text {
-    text-shadow: 2px 2px 4px #1d1e20;
     font-size: 1em;
     text-align: justify;
-    line-height: 1.4;
+    line-height: 1.5;
     margin-bottom: 50px;
 }
 
