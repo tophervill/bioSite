@@ -92,7 +92,7 @@ header h1 a:visited {
 
 /* Main Container */
 #main-container, #container {
-    margin-top: 15%;
+    margin-top: 200px;
 }
 
 /* Flex Container */
@@ -216,6 +216,7 @@ header h1 a:visited {
 #about h2 {
     text-align: center;
     padding-bottom: 10px;
+    margin-top: 35px;
     margin-bottom: 5%;
 }
 
@@ -234,6 +235,7 @@ header h1 a:visited {
 }
 
 .bio-title {
+    font-size: 1.5em;
     margin-bottom: 25px;
 }
 
@@ -243,8 +245,8 @@ header h1 a:visited {
 }
 
 .bio p {
-    font-size: 1.15em;
-    line-height: 1.5;
+    font-size: 1.35em;
+    line-height: 1.75;
 }
 
 /* Cards Layout 1 */
@@ -279,12 +281,14 @@ header h1 a:visited {
     padding: 35px 15px;
     min-width: 300px;
     border-top: 2px solid #35373b;
+    margin: 35px auto;
 }
 
 .cards-layout-1 .card-text {
-    width: 55%;
+    flex-basis: 55%;
     order: 1;
     padding-right: 15px;
+    flex-grow: 1;
 }
 
 .cards-layout-1 .card-title {
@@ -295,23 +299,26 @@ header h1 a:visited {
 }
 
 .cards-layout-1 .card-content {
-    font-size: 1.2em;
+    font-size: 1.25em;
     line-height: 1.5;
+    margin-bottom: 25px;
 }
 
 .cards-layout-1 .card-image {
-    width: 40%;
+    width: 300px;
     align-content: center;
     justify-content: center;
     text-align: center;
     order: 3;
+    flex-grow: 1;
 }
 
+.cards-layout-1 .reversed .card {margin: 35px auto;}
 .cards-layout-1 .reversed .card-image {order: 1;}
 .cards-layout-1 .reversed .card-text{order: 2;}
-.cards-layout-1 .reversed .card-image img {
-    width: 100%;
-    height: auto;
+.cards-layout-1 .reversed .card-image {
+    width: 300px;
+    margin-right: 25px;
 }
 
 .cards-layout-1 .card-image img{
